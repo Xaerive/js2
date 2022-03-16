@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background-color: rgb(21, 130, 255);
+  display:flex;
+  justify-content: space-between;
+}
+
+
+.container {
+max-width: 1200px;
+margin:auto
+}
+header.container{
+display:flex;
+justify-content: space-between;
+padding:15px 0 ;
+}
+
+.logo {
+  color:white;
+  front-size: 20px;
+}
+
+.search input {
+  background-color: transparent;
+  border-width: 0 0 1px 0;
+  border-color: white;
+  color: wheat;
+  outline: none;
+  front-size: 18px;
+  width: 180px
+}
+
+
+.search input::placeholder {
+  color:white
+}
+.search .fa-search
