@@ -50,7 +50,16 @@ border-width: 0 0 1px 0;
 .new-task-section {
   margin-top: 50px;
   display: flex;
+  justify-content: space-between;
 }
+.new-task-section button {
+  background-color: white;
+  border: 1px solid white;
+  padding: 15px 30px;
+  shadow-box: 0px 2px 3px lightgray
+}
+
+
 
 .new-task-section input {
   outline: none;
@@ -59,7 +68,7 @@ border-width: 0 0 1px 0;
   border-color: lightgray;
   width: 70%;
   color: gray;
-  font-size: 7px;
+  font-size: 15px;
 }
 
 
@@ -72,9 +81,14 @@ border-width: 0 0 1px 0;
     border: 1px ;
     padding: 5px 15px;
   }
+  .open-task-section-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 15px
+  }
 
-
-  .open-task-section-header-select {
+  .open-task-section-header select {
     border-width: 0 0 1px;
     border-color: lightgrey;
     font-size: 15px ;
